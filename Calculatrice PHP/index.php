@@ -22,7 +22,7 @@ require "treatment.php";
         </div>
 
         <input type="input" hidden name="x" value="<?php echo $x ?>">
-        <input type="input" hidden name="op" value="<?php echo $operator ?>">
+        <input type="input" hidden name="op" value="<?php echo $operation ?>">
         <input type="input" hidden name="y" value="<?php echo $y ?>">
 
         <div class="line-zero">

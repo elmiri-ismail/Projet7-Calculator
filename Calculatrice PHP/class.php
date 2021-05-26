@@ -1,12 +1,12 @@
 <?php 
-class Calculatrice{
+class Calculator{
    private $x; 
-   private $operator; 
+   private $operation; 
    private $y; 
 
-    function __construct($x, $operator, $y){
+    function __construct($x, $operation, $y){
         $this->x = $x;
-        $this->operator = $operator ;
+        $this->operation = $operation ;
         $this->y = $y;
     }
 
@@ -14,7 +14,7 @@ class Calculatrice{
     $result = null;
     $n1 = floatval($this->x);
     $n2 = floatval($this->y);
-    switch ($this->operator) {
+    switch ($this->operation) {
         case '+':
             $result = $n1 + $n2;
             break;
